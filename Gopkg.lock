@@ -80,6 +80,12 @@
   version = "v3.0.0"
 
 [[projects]]
+  name = "github.com/djherbis/times"
+  packages = ["."]
+  revision = "95292e44976d1217cf3611dc7c8d9466877d3ed5"
+  version = "v1.0.1"
+
+[[projects]]
   branch = "master"
   name = "github.com/dropbox/dropbox-sdk-go-unofficial"
   packages = ["dropbox","dropbox/async","dropbox/file_properties","dropbox/files"]
@@ -297,6 +303,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "63cb991f1167ff9f656f36bf3bb59831cde5402d70729a5709088ae73388c69e"
+  inputs-digest = "be34dd57558014b2cef7f1976405b10840cc1bd75cec8af45a68df269d5eac37"
   solver-name = "gps-cdcl"
   solver-version = 1
